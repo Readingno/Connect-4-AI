@@ -240,7 +240,7 @@ while not game_over:
             turn = -turn
             print(board)
             draw_board(board)
-            #cur_player = 3 - cur_player
+            cur_player = 3 - cur_player
 
         # check play's turn
         if cur_player == player:
